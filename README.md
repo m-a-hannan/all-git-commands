@@ -1,5 +1,6 @@
 ## All Commands
 
+### Regular commands:
 * git init // initialize local git repo
 * git add index.html // add 'index.html 'file to index
 * git add . // add all files to index
@@ -9,11 +10,8 @@
 * git pull // pull latest from remote repo
 * git clone // clone repo into a local new directory
 
-### If your Local branch and remote branch is the same name then you can just do it:
-* git push origin branchName
 
-### When your local and remote branch name is different then you can just do it:
-* git push origin localBranchName:remoteBranchName
+
 * cd New Folder // New Folder is a local repo	
 * git init // into the New Folder repo. now need to connect with online repo 
 * git remote add origin ..link..of..online..GitHub..repo.. // linking between New Folder & repo 
@@ -42,11 +40,16 @@
 * git config --global user.name 'Siyam Al Galib' // Declaring Global Name
 * git config --global user.email 'galib.abdullah04@gmail.com' // Declaring Email
 
-### Create New Repo > Clone the Repo to the Local Git Folder
+### If your Local branch and remote branch is the same name then you can just do it:
+* git push origin branchName
+
+### When your local and remote branch name is different then you can just do it:
+* git push origin localBranchName:remoteBranchName
+
+### 1. Create New Repo > Clone the Repo to the Local Git Folder > Copy Source Code to the Local Git Folder:
 * git clone Repo Link
 
-### Copy Source Code to the Local Git Folder
-#### Repo Folder > git bash here > then give those commands:
+### 2. Repo Folder > git bash here > then give those commands:
 
 * git status
 * git add .
