@@ -25,6 +25,7 @@
 * git merge new // merged 'new' branch with 'master' branch
 
 * git rm --cached index.html // unstage
+* git rm --cached db.sqlite3 // ignoring db.sqlite3
 * git add *.html // stage again   
 
 * git remote // for displaying origin
